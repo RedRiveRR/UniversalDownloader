@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OmniDownloader | Universal Media Tool</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>⚡ OmniDownloader</h1>
+            <p class="subtitle">Video, Music & Image Extraction Terminal</p>
+        </header>
+
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="video">🎬 Video</button>
+            <button class="tab-btn" data-tab="music">🎵 Music</button>
+            <button class="tab-btn" data-tab="photo">🖼️ Photo</button>
+        </div>
+
+        <div class="panel">
+            <div class="input-group">
+                <input type="text" id="urlInput" placeholder="Enter target URL (YouTube, Spotify, Instagram...)" autocomplete="off">
+            </div>
+            
+            <div class="options-group" id="formatOptions">
+                <!-- Dynamically populated based on active tab -->
+            </div>
+
+            <div class="action-buttons">
+                <button id="downloadBtn" class="btn primary">Start Sequence</button>
+                <button id="cancelBtn" class="btn danger" style="display: none;">Abort (SIGKILL)</button>
+            </div>
+        </div>
+
+        <div class="terminal-wrapper">
+            <div class="terminal-header">
+                <div class="dots">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+                <div class="terminal-title">system_logs.sh</div>
+            </div>
+            <div id="terminal" class="terminal-body">
+                <div class="log-line log-system">OmniDownloader v1.0.0 initialized.</div>
+                <div class="log-line">Ready for commands...</div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
