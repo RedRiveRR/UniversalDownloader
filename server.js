@@ -21,8 +21,9 @@ const PORT = process.env.PORT || 3050;
 
 // Resolve Paths from ENV or fallback
 const PYTHON_SCRIPTS_DIR = process.env.PYTHON_SCRIPTS_DIR || '';
-const FFMPEG_DIR = process.env.FFMPEG_DIR || 'C:\\ffmpeg\\bin';
-const FFMPEG_EXE = join(FFMPEG_DIR, os.platform() === 'win32' ? 'ffmpeg.exe' : 'ffmpeg');
+const ffmpegStatic = require('ffmpeg-static');
+const FFMPEG_EXE = process.env.FFMPEG_EXE || ffmpegStatic;
+const FFMPEG_DIR = dirname(FFMPEG_EXE);
 
 app.use(cors({ origin: '*', methods: ['GET', 'POST'], credentials: true }));
 app.use(express.json({ limit: '50mb' }));
