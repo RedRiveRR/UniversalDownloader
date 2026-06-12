@@ -80,6 +80,15 @@ To download age-restricted or private/login-required media (like private Instagr
 - `youtube_cookies.txt`
 - `instagram_cookies.txt`
 
+### 🤝 Acknowledgements & Core Engines
+This project is an open-source web wrapper. All the heavy lifting for extraction is done by the brilliant developers of the following open-source projects. Huge thanks to them!
+- [**yt-dlp**](https://github.com/yt-dlp/yt-dlp) - The ultimate video downloader
+- [**spotdl**](https://github.com/spotDL/spotify-downloader) - The premier Spotify downloader
+- [**gallery-dl**](https://github.com/mikf/gallery-dl) - The comprehensive image gallery downloader
+
+### ⚠️ Legal Disclaimer
+*This software is intended for personal and educational use only. Downloading copyrighted material without permission may violate laws in your country. The developers of UniversalDownloader, as well as the underlying engines (yt-dlp, spotdl, gallery-dl), hold no responsibility for any misuse or legal consequences caused by the users of this software. Always respect the terms of service of the platforms you are downloading from.*
+
 ---
 
 <a id="türkçe"></a>
@@ -143,6 +152,15 @@ Yaş kısıtlamalı veya giriş yapılması gereken (Örn: Gizli Instagram hesap
 - `youtube_cookies.txt`
 - `instagram_cookies.txt`
 Sistem arka planda bu dosyaları otomatik olarak tanıyacak ve indirme sırasında platformlara iletecektir.
+
+### 🤝 Teşekkürler ve Ana Motorlar
+Bu proje açık kaynaklı bir web arayüzüdür. Medya indirme konusundaki asıl ağır iş, aşağıdaki muhteşem açık kaynak projelerin geliştiricileri tarafından yapılmaktadır. Onlara sonsuz teşekkürler!
+- [**yt-dlp**](https://github.com/yt-dlp/yt-dlp) - Efsanevi video indirme aracı
+- [**spotdl**](https://github.com/spotDL/spotify-downloader) - Üst düzey Spotify indirme aracı
+- [**gallery-dl**](https://github.com/mikf/gallery-dl) - Kapsamlı görsel galeri indirme aracı
+
+### ⚠️ Yasal Uyarı
+*Bu yazılım sadece kişisel kullanım ve eğitim amaçlı tasarlanmıştır. Telif hakkıyla korunan materyallerin izinsiz indirilmesi ülkenizdeki yasalara aykırı olabilir. UniversalDownloader geliştiricileri ve altyapıda çalışan motorlar (yt-dlp, spotdl, gallery-dl), bu yazılımın kullanıcılar tarafından kötüye kullanımı veya doğurabileceği yasal sonuçlar konusunda hiçbir sorumluluk kabul etmez. İndirme yaptığınız platformların Hizmet Şartları'na (TOS) her zaman saygı gösterin.*
 
 ---
 <div align="center">
