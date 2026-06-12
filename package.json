@@ -1,5 +1,5 @@
 {
-  "name": "omni-downloader",
+  "name": "universal-downloader",
   "version": "1.0.0",
   "description": "Universal Media Downloader (Video, Music, Photo) using yt-dlp, spotdl, and gallery-dl",
   "main": "server.js",

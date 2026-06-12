@@ -327,7 +327,7 @@ app.get('/api/download/file', (req, res) => {
         hybridTasks.delete(taskId);
       });
     } else {
-      res.attachment(`OmniDownloader_${taskId}.zip`);
+      res.attachment(`UniversalDownloader_${taskId}.zip`);
       const archive = new archiver.ZipArchive({ zlib: { level: 0 } });
       res.on('finish', () => {
         fs.rmSync(task.dir, { recursive: true, force: true });
@@ -343,4 +343,4 @@ app.get('/api/download/file', (req, res) => {
 });
 
 const server = http.createServer(app);
-server.listen(PORT, () => console.log(`🚀 OmniDownloader running at http://localhost:${PORT}`));
+server.listen(PORT, () => console.log(`🚀 UniversalDownloader running at http://localhost:${PORT}`));

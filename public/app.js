@@ -89,7 +89,7 @@ downloadBtn.addEventListener('click', async () => {
     const format = formatSelect ? formatSelect.value : 'best_mp4';
     
     log(`> Initiating Sequence: ${url} (Target: ${format.toUpperCase()})`, 'log-system');
-    startSpinner('Connecting to OmniDownloader API...');
+    startSpinner('Connecting to UniversalDownloader API...');
 
     try {
         const endpoint = currentTab === 'music' ? '/api/download/hybrid' : '/api/download/video';

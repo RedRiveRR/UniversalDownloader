@@ -1,4 +1,4 @@
-# ⚡ OmniDownloader (Universal Media Extractor)
+# ⚡ UniversalDownloader (Universal Media Extractor)
 
 [🇹🇷 Türkçe](#türkçe) | [🇬🇧 English](#english)
 
@@ -31,7 +31,7 @@ This project acts as an orchestrator for several powerful Python CLI tools. You 
 1. Clone the repository and install Node dependencies:
    ```bash
    git clone https://github.com/RedRiveRR/UniversalDownloader.git
-   cd OmniDownloader
+   cd UniversalDownloader
    npm install
    ```
 2. Copy `.env.example` to `.env` and configure your paths:
@@ -79,7 +79,7 @@ Bu proje, güçlü Python CLI araçlarının bir orkestratörü olarak çalış�
 1. Depoyu klonlayın ve Node modüllerini yükleyin:
    ```bash
    git clone https://github.com/RedRiveRR/UniversalDownloader.git
-   cd OmniDownloader
+   cd UniversalDownloader
    npm install
    ```
 2. `.env.example` dosyasını kopyalayıp `.env` adıyla kaydedin ve yollarınızı yapılandırın:
