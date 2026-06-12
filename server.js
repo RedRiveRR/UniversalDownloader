@@ -20,7 +20,7 @@ const app = express();
 const PORT = process.env.PORT || 3050;
 
 // Resolve Paths from ENV or fallback
-const PYTHON_SCRIPTS_DIR = process.env.PYTHON_SCRIPTS_DIR || join(os.homedir(), 'AppData', 'Local', 'Programs', 'Python', 'Python312', 'Scripts');
+const PYTHON_SCRIPTS_DIR = process.env.PYTHON_SCRIPTS_DIR || '';
 const FFMPEG_DIR = process.env.FFMPEG_DIR || 'C:\\ffmpeg\\bin';
 const FFMPEG_EXE = join(FFMPEG_DIR, os.platform() === 'win32' ? 'ffmpeg.exe' : 'ffmpeg');
 
@@ -48,7 +48,7 @@ function getAllFiles(dir) {
   return results;
 }
 
-const getExe = (name) => join(PYTHON_SCRIPTS_DIR, os.platform() === 'win32' ? `${name}.exe` : name);
+const getExe = (name) => PYTHON_SCRIPTS_DIR ? join(PYTHON_SCRIPTS_DIR, os.platform() === 'win32' ? `${name}.exe` : name) : (os.platform() === 'win32' ? `${name}.exe` : name);
 
 // ----------------------------------------------------
 // HYBRID MUSIC DOWNLOADER (Spotify, YT, SC)
