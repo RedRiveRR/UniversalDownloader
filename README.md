@@ -24,6 +24,21 @@
 
 **UniversalDownloader** is a sleek, self-hosted, all-in-one media downloader built on Node.js. It acts as a powerful web orchestrator for CLI tools like `yt-dlp`, `spotdl`, and `gallery-dl`, bringing their raw power into a cyberpunk-styled, easy-to-use dashboard.
 
+### 🌐 Supported Platforms
+Thanks to our multi-engine architecture, we support downloading from virtually anywhere:
+
+![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
+![Spotify](https://img.shields.io/badge/Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white)
+![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)
+![X](https://img.shields.io/badge/X_Twitter-000000?style=for-the-badge&logo=x&logoColor=white)
+![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white)
+![SoundCloud](https://img.shields.io/badge/SoundCloud-FF3300?style=for-the-badge&logo=soundcloud&logoColor=white)
+![Pinterest](https://img.shields.io/badge/Pinterest-E60023?style=for-the-badge&logo=pinterest&logoColor=white)
+![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white)
+![Twitch](https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white)
+
+*...and 1000+ other websites natively supported by `yt-dlp` and `gallery-dl`!*
+
 ### ✨ Features
 - 🚀 **3-in-1 Dashboard:** Single unified interface with dedicated tabs for Video, Music, and Photos.
 - 🎵 **Studio Quality Audio:** Uses `spotdl` and `ffmpeg` to embed original metadata and album arts.
@@ -71,6 +86,21 @@ To download age-restricted or private/login-required media (like private Instagr
 ## 🇹🇷 Türkçe
 
 **UniversalDownloader**, Node.js üzerinde inşa edilmiş, şık, tek başına barındırılabilen (self-hosted) "hepsi bir arada" bir medya indirme aracıdır. Güçlü komut satırı programlarını (`yt-dlp`, `spotdl` vb.) tek bir siberpunk web arayüzünde toplayarak kullanımlarını basitleştirir.
+
+### 🌐 Desteklenen Platformlar
+Çoklu-motor mimarimiz sayesinde internetteki neredeyse her yerden indirme yapabilirsiniz:
+
+![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
+![Spotify](https://img.shields.io/badge/Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white)
+![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)
+![X](https://img.shields.io/badge/X_Twitter-000000?style=for-the-badge&logo=x&logoColor=white)
+![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white)
+![SoundCloud](https://img.shields.io/badge/SoundCloud-FF3300?style=for-the-badge&logo=soundcloud&logoColor=white)
+![Pinterest](https://img.shields.io/badge/Pinterest-E60023?style=for-the-badge&logo=pinterest&logoColor=white)
+![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white)
+![Twitch](https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white)
+
+*...ve `yt-dlp` ile `gallery-dl` tarafından desteklenen 1000+ fazla websitesi!*
 
 ### ✨ Özellikler
 - 🚀 **3'ü 1 Arada Kontrol Paneli:** Video, Müzik ve Fotoğraflar için sekmeli, modern ve tek parça arayüz.
