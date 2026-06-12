@@ -1,0 +1,18 @@
+node_modules/
+.env
+*.env
+.env.*
+
+# Cookies and Credentials
+*_cookies.txt
+cookies.txt
+credentials.json
+*.pem
+*.key
+
+# Temporary download files
+hybrid_*/
+
+# OS generated files
+.DS_Store
+Thumbs.db
